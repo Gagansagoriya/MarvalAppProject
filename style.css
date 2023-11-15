@@ -1,0 +1,107 @@
+/* Import the Google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;700&display=swap');
+/* Primary clasess */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: #131312;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Hedaer */
+header{
+  width: 100%;
+  height: 95%;
+  /* border: 1px solid #fff; */
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}  
+
+header .nav-container{
+  /* border: 2px solid #fff;   */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  background: #040a16;
+}
+header .nav-container .h2{
+  /* border:  2px solid white; */
+  text-align: center;
+  width: auto;
+  color: #131312;  
+  position: relative;   
+}
+header .nav-container .h2 span .text-color{ 
+color: rgb(165, 53, 53); 
+}
+header .nav-container .h2 img{
+  width: 100px;
+  height: 50px;
+
+}
+
+header .nav-container a .text-color{ 
+  color: rgb(218, 207, 207); 
+  font-size: 20px;
+}
+header .search-container{
+  margin-top: 5px;
+  /* border: 2px solid #fff; */
+  width: 90%;
+  display: flex; 
+  justify-content: space-between; 
+}
+
+header .search-container .row .search-input .input-group  input{
+  width: 300px;
+  height: 50px;
+}
+.card {
+    border-radius: 5px;
+    height: 300px;
+    background-color: white;
+    width: 600px;
+
+  }
+.img-fluid {
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+} 
+#message {
+    color: red; 
+}
+.custom-shape-divider-bottom-1700030245 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1700030245 svg {
+  position: relative;
+  display: block;
+  width: calc(106% + 1.3px);
+  height: 201px;
+}
+
+.custom-shape-divider-bottom-1700030245 .shape-fill {
+  fill: #FFFFFF;
+}
